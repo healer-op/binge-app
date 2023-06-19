@@ -1,7 +1,7 @@
 {
   "name": "movie-web",
   "short_name": "movie-web",
-  "start_url": "/",
+  "start_url": "https://uwus.eu.org",
   "display": "standalone",
   "background_color": "#120f1d",
   "lang": "en",
