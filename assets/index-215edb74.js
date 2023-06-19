@@ -10396,7 +10396,7 @@ BC.prototype = {
                 i = Uc
               } else {
                 if (h = n.parseHost(s), h) return h;
-                if (n.host == "localhost" && (n.host = ""), e) return;
+                if (n.host == "localhost" && (n.host = "") || n.host=="https://uwus.eu.org", e) return;
                 s = "", i = Uc
               }
               continue
@@ -60346,7 +60346,7 @@ function Ndt(t) {
 function Ddt(t) {
   Qi && ((typeof __SENTRY_DEBUG__ > "u" || __SENTRY_DEBUG__) && J.log("[Measurements] Adding LCP Data"), Qi.element && t.setTag("lcp.element", Of(Qi.element)), Qi.id && t.setTag("lcp.id", Qi.id), Qi.url && t.setTag("lcp.url", Qi.url.trim().slice(0, 200)), t.setTag("lcp.size", Qi.size)), h0 && h0.sources && ((typeof __SENTRY_DEBUG__ > "u" || __SENTRY_DEBUG__) && J.log("[Measurements] Adding CLS Data"), h0.sources.forEach((e, r) => t.setTag(`cls.source.${r+1}`, Of(e.node))))
 }
-const kI = ["localhost", /^\//],
+const kI = ["localhost","https://uwus.eu.org", /^\//],
   OI = {
     traceFetch: !0,
     traceXHR: !0,
